@@ -184,6 +184,32 @@
         return true;
     };
 
+    function isAlgebraQuestionModalBlocking(window) {
+        const scene = SceneManager._scene;
+        return (
+            scene instanceof Scene_Battle &&
+            scene.isAlgebraQuestionActive &&
+            scene.isAlgebraQuestionActive() &&
+            !scene.isAlgebraQuestionInputWindow(window)
+        );
+    }
+
+    const _Window_Selectable_processHandling = Window_Selectable.prototype.processHandling;
+    Window_Selectable.prototype.processHandling = function() {
+        if (isAlgebraQuestionModalBlocking(this)) {
+            return;
+        }
+        _Window_Selectable_processHandling.call(this);
+    };
+
+    const _Window_Selectable_processTouch = Window_Selectable.prototype.processTouch;
+    Window_Selectable.prototype.processTouch = function() {
+        if (isAlgebraQuestionModalBlocking(this)) {
+            return;
+        }
+        _Window_Selectable_processTouch.call(this);
+    };
+
     function Window_AlgebraQuestionPrompt() {
         this.initialize(...arguments);
     }
@@ -364,6 +390,10 @@
         );
     };
 
+    Scene_Battle.prototype.isAlgebraQuestionInputWindow = function(window) {
+        return window === this._algebraChoiceWindow;
+    };
+
     const _Scene_Battle_commandAttack = Scene_Battle.prototype.commandAttack;
     Scene_Battle.prototype.commandAttack = function() {
         if (!AlgebraBattleQuestions.hasQuestions()) {
@@ -378,9 +408,7 @@
         this._algebraQuestionTimerFrames = QUESTION_TIME_LIMIT_SECONDS * 60;
         this._algebraQuestionTimedOut = false;
         this._partyCommandWindow.deactivate();
-        this._partyCommandWindow.close();
         this._actorCommandWindow.deactivate();
-        this._actorCommandWindow.hide();
         this._statusWindow.hide();
         this._algebraPromptWindow.setQuestion(this._algebraQuestion);
         this._algebraChoiceWindow.setQuestion(this._algebraQuestion);
