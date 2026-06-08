@@ -1,0 +1,602 @@
+[
+    {
+        "question": "Simplify the expression into standard form: (71x^9-29+7x)+(28x^4-27-37x^9)",
+        "Choices": [
+            "34x^9+7x-56-28x^4",
+            "-34x^9-28x^4-7x-56",
+            "34x^9-28x^4+7x-56",
+            "34x^9+28x^4+7x-56"
+        ],
+        "answer": "34x^9+28x^4+7x-56"
+    },
+    {
+        "question": "Solve the equation for a: 3y/5-a+9g-7=h+e-6x",
+        "Choices": [
+            "a=h+3y/5+9g-e-7",
+            "a=h+6x+3y/5-9g-7",
+            "a=h+6x+3y/5+9g-e-7",
+            "a=-h+6x+3y/5+9g-e-7"
+        ],
+        "answer": "a=-h+6x+3y/5+9g-e-7"
+    },
+    {
+        "question": "A zinnia is 3 cm tall when first planted. It grows 0.25 cm per day. After how many days will it reach 16.5 cm?",
+        "Choices": [
+            "53 days",
+            "61 days",
+            "58 days",
+            "54 days"
+        ],
+        "answer": "54 days"
+    },
+    {
+        "question": "Simplify the rational expression: (x^2-4x+3)/(x-1)",
+        "Choices": [
+            "3+x",
+            "x+3",
+            "3-x",
+            "x-3"
+        ],
+        "answer": "x-3"
+    },
+    {
+        "question": "A tulip is 5 cm tall when first planted. It grows 2.5 cm per day. After how many days will it reach 85 cm?",
+        "Choices": [
+            "45 days",
+            "31 days",
+            "46 days",
+            "32 days"
+        ],
+        "answer": "32 days"
+    },
+    {
+        "question": "A daffodil is 8 cm tall when first planted. It grows 1.50 cm per day. After how many days will it reach 117.5 cm?",
+        "Choices": [
+            "71 days",
+            "72 days",
+            "76 days",
+            "73 days"
+        ],
+        "answer": "73 days"
+    },
+    {
+        "question": "Solve the equation for d: h+k/5-d=2-f",
+        "Choices": [
+            "d=f-h+k/5+2",
+            "d=-f+h+k/5-2",
+            "d=f+k/5-2",
+            "d=f+h+k/5-2"
+        ],
+        "answer": "d=f+h+k/5-2"
+    },
+    {
+        "question": "Simplify the rational expression: (3x^2-6x+3)/(x-1)",
+        "Choices": [
+            "-3x-3",
+            "3x+3",
+            "4x-3",
+            "3x-3"
+        ],
+        "answer": "3x-3"
+    },
+    {
+        "question": "A hydrangea is 2 cm tall when first planted. It grows 0.10 cm per day. After how many days will it reach 6.3 cm?",
+        "Choices": [
+            "10 days",
+            "12 days",
+            "42 days",
+            "43 days"
+        ],
+        "answer": "43 days"
+    },
+    {
+        "question": "Solve the equation for q: 9s+5/k-6x+q=7-14n+3",
+        "Choices": [
+            "q=14n-9s+6-5/k+10",
+            "q=14n-s+6x-5/k-10",
+            "q=14n-9s+6x-5/k+10",
+            "q=-14n-9s+6x-5/k+10"
+        ],
+        "answer": "q=-14n-9s+6x-5/k+10"
+    },
+    {
+        "question": "Solve the equation for c: c+2r-3=6/x-18",
+        "Choices": [
+            "c=-6/x+2r-15",
+            "c=-6/x-2r-15",
+            "c=-6/x-2r+15",
+            "c=6/x-2r-15"
+        ],
+        "answer": "c=6/x-2r-15"
+    },
+    {
+        "question": "Solve the equation for m: -2+9h=m+4n",
+        "Choices": [
+            "m=4n-9h-2",
+            "m=-4n+9h+2",
+            "m=4n+9h+2",
+            "m=-4n+9h-2"
+        ],
+        "answer": "m=-4n+9h-2"
+    },
+    {
+        "question": "A rose is 3 cm tall when first planted. It grows 1.25 cm per day. After how many days will it reach 80.5 cm?",
+        "Choices": [
+            "60 days",
+            "70 days",
+            "61 days",
+            "62 days"
+        ],
+        "answer": "62 days"
+    },
+    {
+        "question": "Simplify the expression into standard form: (7x^3-6x^2+19x-3)+(8x^5-13x+3x^3-16x^2)",
+        "Choices": [
+            "8x^5-10x^3-22x^2+6x-3",
+            "8x^5+10x^3+22x^2+6x-3",
+            "-8x^5+10x^3-22x^2+6x-3",
+            "8x^5+10x^3-22x^2+6x-3"
+        ],
+        "answer": "8x^5+10x^3-22x^2+6x-3"
+    },
+    {
+        "question": "Solve the equation for l: l-3u/7+8w=2h",
+        "Choices": [
+            "l=2h+3u/7+8w",
+            "l=-2h+3u/7-8w",
+            "l=2h-3u/7-8w",
+            "l=2h+3u/7-8w"
+        ],
+        "answer": "l=2h+3u/7-8w"
+    },
+    {
+        "question": "Simplify the expression into standard form: (4x^3-28x+9)-(38x-21+294x^3+3x^8)",
+        "Choices": [
+            "3x^8-290x^3-66x+30",
+            "-3x^8-290x^3+66x+30",
+            "-3x^8+290x^3-66x+30",
+            "-3x^8-290x^3-66x+30"
+        ],
+        "answer": "-3x^8-290x^3-66x+30"
+    },
+    {
+        "question": "Solve the equation for w: w+3h-k+c=4n-7+2e/i",
+        "Choices": [
+            "w=-4n+2e/i-3h-c+k-7",
+            "w=4n+2e/i+3h-c+k-7",
+            "w=4n-2e/i-3h-c+k-7",
+            "w=4n+2e/i-3h-c+k-7"
+        ],
+        "answer": "w=4n+2e/i-3h-c+k-7"
+    },
+    {
+        "question": "Solve the equation for s: 6n+s-q/w=2h-8",
+        "Choices": [
+            "s=2h-6n+q/w+8",
+            "s=2h-6n-q/w-8",
+            "s=2h+6n-q-8",
+            "s=2h-6n+q/w-8"
+        ],
+        "answer": "s=2h-6n+q/w-8"
+    },
+    {
+        "question": "An iris is 7 cm tall when first planted. It grows 0.50 cm per day. After how many days will it reach 19 cm?",
+        "Choices": [
+            "18 days",
+            "28 days",
+            "36 days",
+            "24 days"
+        ],
+        "answer": "24 days"
+    },
+    {
+        "question": "Solve the equation for c: 7a/2-3+c=9t+u",
+        "Choices": [
+            "c=-9t-u+7a/2+3",
+            "c=-9t+u-7a/2+3",
+            "c=-9t+u+7a/2-3",
+            "c=9t+u-7a/2+3"
+        ],
+        "answer": "c=9t+u-7a/2+3"
+    },
+    {
+        "question": "Expand and simplify the expression: (6x-3)(-9x^2+7)",
+        "Choices": [
+            "-54x^3-27x^2+42x-21",
+            "54x^3+27x^2+42x-21",
+            "-54x^3+27x^2-42x",
+            "-54x^3+27x^2+42x-21"
+        ],
+        "answer": "-54x^3+27x^2+42x-21"
+    },
+    {
+        "question": "A corpse flower is 8 cm tall when first planted. It grows 5 cm per day. After how many days will it reach 178 cm?",
+        "Choices": [
+            "32 days",
+            "39 days",
+            "33 days",
+            "34 days"
+        ],
+        "answer": "34 days"
+    },
+    {
+        "question": "Expand and simplify the expression: (15x^5-8x^2+9)(2x+23)",
+        "Choices": [
+            "-30x^6+345x^5-16x^3-184x^2+18x+207",
+            "30x^6+345x^5+16x^3-184x^2+18x+207",
+            "30x^6-345x^5-16x^3-184x^2+18x+207",
+            "30x^6+345x^5-16x^3-184x^2+18x+207"
+        ],
+        "answer": "30x^6+345x^5-16x^3-184x^2+18x+207"
+    },
+    {
+        "question": "Solve the equation for h: h-j/2+8m=6s-9/y",
+        "Choices": [
+            "h=-6s-9/y+j/2-8m",
+            "h=6s+9/y+j/2-8m",
+            "h=6s+j/2-8m",
+            "h=6s-9/y+j/2-8m"
+        ],
+        "answer": "h=6s-9/y+j/2-8m"
+    },
+    {
+        "question": "A carnation is 9 cm tall when first planted. It grows 2.50 cm per day. After how many days will it reach 101.5 cm?",
+        "Choices": [
+            "40 days",
+            "36 days",
+            "32 days",
+            "37 days"
+        ],
+        "answer": "37 days"
+    },
+    {
+        "question": "Simplify the expression by combining like terms: (-8x-3y-9)+(19-5y+x)",
+        "Choices": [
+            "-7x+8y+10",
+            "-7x-8y-10",
+            "7x-8y+10",
+            "-7x-8y+10"
+        ],
+        "answer": "-7x-8y+10"
+    },
+    {
+        "question": "Expand and simplify the expression: (3x^9+8x-5)(2x^8-9-12x)",
+        "Choices": [
+            "-36x^10-11x^9-10x^8-6x^17-96x^2-12x+45",
+            "6x^17+36x^10-11x^9-10x^8-96x^2-12x+45",
+            "-6x^17-36x^10-11x^9-10x^8-96x^2-12x+45",
+            "6x^17-36x^10-11x^9-10x^8-96x^2-12x+45"
+        ],
+        "answer": "6x^17-36x^10-11x^9-10x^8-96x^2-12x+45"
+    },
+    {
+        "question": "Solve the equation for b: b+8w/3-7h=2+u",
+        "Choices": [
+            "b=u-8w/3+7h-2",
+            "b=-8w/3-7h+2",
+            "b=u+7h+2",
+            "b=u-8w/3+7h+2"
+        ],
+        "answer": "b=u-8w/3+7h+2"
+    },
+    {
+        "question": "Solve the equation for t: 4q+6-t=f-g+2u",
+        "Choices": [
+            "t=f+g-2u+4q-6",
+            "t=f+g-2u+4q+6",
+            "t=-f-g-2u+4q-6",
+            "t=-f+g-2u+4q+6"
+        ],
+        "answer": "t=-f+g-2u+4q+6"
+    },
+    {
+        "question": "Solve the equation for q: 8s+q-h=3w/o+7",
+        "Choices": [
+            "q=-3w/o-8s-h+7",
+            "q=-3w/o-8s+h+7",
+            "q=-3w/o+8s+h-7",
+            "q=3w/o-8s+h+7"
+        ],
+        "answer": "q=3w/o-8s+h+7"
+    },
+    {
+        "question": "A hibiscus is 9 cm tall when first planted. It grows 1 cm per day. After how many days will it reach 48 cm?",
+        "Choices": [
+            "33 days",
+            "38 days",
+            "35 days",
+            "39 days"
+        ],
+        "answer": "39 days"
+    },
+    {
+        "question": "Solve the equation for d: d+t/6-3=w-2h",
+        "Choices": [
+            "d=w+2h+t/6-3",
+            "d=-w-2h-t/6+3",
+            "d=w+2h-t/6+3",
+            "d=w-2h-t/6+3"
+        ],
+        "answer": "d=w-2h-t/6+3"
+    },
+    {
+        "question": "Solve the equation for p: i/4-u+p=7",
+        "Choices": [
+            "p=7-u-i/4",
+            "p=7+u+i/4",
+            "p=-7+u-i/4",
+            "p=7+u-i/4"
+        ],
+        "answer": "p=7+u-i/4"
+    },
+    {
+        "question": "Simplify the expression into standard form: (3x^3-5x^6)+(18x^3-89-9x^5)",
+        "Choices": [
+            "-5x^6+9x^5+21x^3-89",
+            "-5x^6-9x^5-21x^3-89",
+            "5x^6-9x^5+21x^3-89",
+            "-5x^6-9x^5+21x^3-89"
+        ],
+        "answer": "-5x^6-9x^5+21x^3-89"
+    },
+    {
+        "question": "A petunia is 4 cm tall when first planted. It grows 2 cm per day. After how many days will it reach 188 cm?",
+        "Choices": [
+            "84 days",
+            "93 days",
+            "91 days",
+            "92 days"
+        ],
+        "answer": "92 days"
+    },
+    {
+        "question": "An anemone is 9 cm tall when first planted. It grows 0.5 cm per day. After how many days will it reach 45 cm?",
+        "Choices": [
+            "76 days",
+            "71 days",
+            "79 days",
+            "72 days"
+        ],
+        "answer": "72 days"
+    },
+    {
+        "question": "An orchid is 6 cm tall when first planted. It grows 1.27 cm per day. After how many days will it reach 27.59 cm?",
+        "Choices": [
+            "18 days",
+            "16 days",
+            "23 days",
+            "17 days"
+        ],
+        "answer": "17 days"
+    },
+    {
+        "question": "Expand and simplify the expression: (3x+6)(7x^2-3)",
+        "Choices": [
+            "-21x^3+42x^2-9x-18",
+            "21x^3+42x^2+9x-18",
+            "21x^3-42x^2-9x-18",
+            "21x^3+42x^2-9x-18"
+        ],
+        "answer": "21x^3+42x^2-9x-18"
+    },
+    {
+        "question": "A dahlia is 10 cm tall when first planted. It grows 1.50 cm per day. After how many days will it reach 94 cm?",
+        "Choices": [
+            "55 days",
+            "61 days",
+            "50 days",
+            "56 days"
+        ],
+        "answer": "56 days"
+    },
+    {
+        "question": "A marigold is 8 cm tall when first planted. It grows 0.40 cm per day. After how many days will it reach 22.4 cm?",
+        "Choices": [
+            "45 days",
+            "38 days",
+            "35 days",
+            "36 days"
+        ],
+        "answer": "36 days"
+    },
+    {
+        "question": "Expand and simplify the expression: (7x+5y^5)(23x^3-5)",
+        "Choices": [
+            "161x^4+35x-115x^3y^5-25y^5",
+            "161x^4-35x-115x^3y^5+25y^5",
+            "-161x^4+115x^3y^5-35x-25y^5",
+            "161x^4+115x^3y^5-35x-25y^5"
+        ],
+        "answer": "161x^4+115x^3y^5-35x-25y^5"
+    },
+    {
+        "question": "Simplify the expression into standard form: (3x^5+2x^3-5)-(8x^3-10x^5+27)",
+        "Choices": [
+            "-13x^5-6x^3-32",
+            "13x^5-6x^3+32",
+            "13x^5+6x^3-32",
+            "13x^5-6x^3-32"
+        ],
+        "answer": "13x^5-6x^3-32"
+    },
+    {
+        "question": "A forget-me-not is 6 cm tall when first planted. It grows 0.07 cm per day. After how many days will it reach 12.37 cm?",
+        "Choices": [
+            "95 days",
+            "90 days",
+            "96 days",
+            "91 days"
+        ],
+        "answer": "91 days"
+    },
+    {
+        "question": "A cosmos is 6 cm tall when first planted. It grows 0.75 cm per day. After how many days will it reach 40.5 cm?",
+        "Choices": [
+            "44 days",
+            "48 days",
+            "39 days",
+            "46 days"
+        ],
+        "answer": "46 days"
+    },
+    {
+        "question": "Expand and simplify the expression: (4x-7)(2x+3)",
+        "Choices": [
+            "8x^2-2x+21",
+            "-8x^2-2x-21",
+            "8x^2+2x-21",
+            "8x^2-2x-21"
+        ],
+        "answer": "8x^2-2x-21"
+    },
+    {
+        "question": "Solve the equation for g: g+7/a-b=8s+u-2t",
+        "Choices": [
+            "g=8s+u-2t+b",
+            "g=8s-u+2t-7/a+b",
+            "g=8s+u-2t-7/a",
+            "g=8s+u-2t-7/a+b"
+        ],
+        "answer": "g=8s+u-2t-7/a+b"
+    },
+    {
+        "question": "Solve the equation for t: t-5s/6=2q+7",
+        "Choices": [
+            "t=-2q+5s/6+7",
+            "t=2+q+5s/6+7",
+            "t=2q-5s/6+7",
+            "t=2q+5s/6+7"
+        ],
+        "answer": "t=2q+5s/6+7"
+    },
+    {
+        "question": "Simplify the expression by combining like terms: (7x^9-2x-9)-(28x-9y+37)",
+        "Choices": [
+            "7x^9+30x-46-9y",
+            "7x^9-30x+46-9y",
+            "7x^9-30-46+9y",
+            "7x^9-30x-46+9y"
+        ],
+        "answer": "7x^9-30x-46+9y"
+    },
+    {
+        "question": "Simplify the expression into standard form: (3x+8x^3-7)+(75x^3-28-9x)",
+        "Choices": [
+            "-83x^3+6x-35",
+            "83x^3+6x-35",
+            "-83x^3-6x-35",
+            "83x^3-6x-35"
+        ],
+        "answer": "83x^3-6x-35"
+    },
+    {
+        "question": "Simplify the rational expression: (9x^2-81)/(3x-9)",
+        "Choices": [
+            "-9x+3",
+            "-3x+9",
+            "3x-9",
+            "3x+9"
+        ],
+        "answer": "3x+9"
+    },
+    {
+        "question": "Solve the equation for h: 6w-h/2+7=q-3s",
+        "Choices": [
+            "h=-2q+6s+12w-14",
+            "h=2q+6s+12w+14",
+            "h=-2q-6s+12w+14",
+            "h=-2q+6s+12w+14"
+        ],
+        "answer": "h=-2q+6s+12w+14"
+    },
+    {
+        "question": "A chrysanthemum is 14 cm tall when first planted. It grows 0.98 cm per day. After how many days will it reach 48.3 cm?",
+        "Choices": [
+            "40 days",
+            "33 days",
+            "37 days",
+            "35 days"
+        ],
+        "answer": "35 days"
+    },
+    {
+        "question": "A pansy is 13 cm tall when first planted. It grows 0.08 cm per day. After how many days will it reach 17.32 cm?",
+        "Choices": [
+            "55 days",
+            "53 days",
+            "52 days",
+            "54 days"
+        ],
+        "answer": "54 days"
+    },
+    {
+        "question": "Simplify the expression into standard form: (45x^9-2x)+(21x^8-9x+2)",
+        "Choices": [
+            "45x^9+21x^8+11x-2",
+            "-45x^9+21x^8-11x+2",
+            "45x^9-21x^8+11x-2",
+            "45x^9+21x^8-11x+2"
+        ],
+        "answer": "45x^9+21x^8-11x+2"
+    },
+    {
+        "question": "Solve the equation for r: r+j-2c/3=b-8",
+        "Choices": [
+            "r=b+j-2c/3-8",
+            "r=b-j-2c/3+8",
+            "r=b-j+2c/3",
+            "r=b-j+2c/3-8"
+        ],
+        "answer": "r=b-j+2c/3-8"
+    },
+    {
+        "question": "Simplify the expression into standard form: (-14x^7+3x-7x^2)-(7x^2-8x+9)",
+        "Choices": [
+            "-11x-9+14x^2-14x^7",
+            "14x^7-14x^2+11x-9",
+            "-11x-14x^2+9-14x^7",
+            "-14x^7-14x^2+11x-9"
+        ],
+        "answer": "-14x^7-14x^2+11x-9"
+    },
+    {
+        "question": "Solve the equation for k: 2a/6-b/8+k=5",
+        "Choices": [
+            "k=-a/3-b/8+5",
+            "k=a/3+b/8-5",
+            "k=a/3+5",
+            "k=-a/3+b/8+5"
+        ],
+        "answer": "k=-a/3+b/8+5"
+    },
+    {
+        "question": "Simplify the expression into standard form: (4x-9)-(6x^2-3)",
+        "Choices": [
+            "-6x^2-4x+6",
+            "6x^2-4x+6",
+            "6x^2+4x-6",
+            "-6x^2+4x-6"
+        ],
+        "answer": "-6x^2+4x-6"
+    },
+    {
+        "question": "A sunflower is 12 cm tall when first planted. It grows 2.75 cm per day. After how many days will it reach 133 cm?",
+        "Choices": [
+            "41 days",
+            "47 days",
+            "48 days",
+            "44 days"
+        ],
+        "answer": "44 days"
+    },
+    {
+        "question": "A lilac is 1 cm tall when first planted. It grows 0.03 cm per day. After how many days will it reach 1.93 cm?",
+        "Choices": [
+            "30 days",
+            "33 days",
+            "29 days",
+            "31 days"
+        ],
+        "answer": "31 days"
+    }
+]
