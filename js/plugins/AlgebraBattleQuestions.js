@@ -504,6 +504,23 @@
         this.selectNextCommand();
     };
 
+    const _Scene_Battle_startEnemySelection = Scene_Battle.prototype.startEnemySelection;
+    Scene_Battle.prototype.startEnemySelection = function() {
+        _Scene_Battle_startEnemySelection.call(this);
+        this._actorCommandWindow.deactivate();
+        this._actorCommandWindow.hide();
+    };
+
+    const _Scene_Battle_onEnemyCancel = Scene_Battle.prototype.onEnemyCancel;
+    Scene_Battle.prototype.onEnemyCancel = function() {
+        const symbol = this._actorCommandWindow.currentSymbol();
+        _Scene_Battle_onEnemyCancel.call(this);
+        if (symbol === "attack") {
+            this._actorCommandWindow.show();
+            this._actorCommandWindow.activate();
+        }
+    };
+
     const _Game_Action_isAlgebraMissedAttack = Game_Action.prototype.isAlgebraMissedAttack;
     Game_Action.prototype.isAlgebraMissedAttack = function() {
         if (_Game_Action_isAlgebraMissedAttack) {
