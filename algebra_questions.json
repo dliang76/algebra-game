@@ -598,5 +598,1205 @@
             "31 days"
         ],
         "answer": "31 days"
+    },
+    {
+        "question": "Factor completely: 6x + 18",
+        "Choices": [
+            "6(x+3)",
+            "3(x+6)",
+            "2(3x+18)",
+            "6x(1+3)"
+        ],
+        "answer": "6(x+3)"
+    },
+    {
+        "question": "Factor completely: 8y - 20",
+        "Choices": [
+            "4(2y-5)",
+            "2(4y-10)",
+            "8(y-20)",
+            "4(y-5)"
+        ],
+        "answer": "4(2y-5)"
+    },
+    {
+        "question": "Factor completely: x^2 + 7x + 12",
+        "Choices": [
+            "(x+3)(x+4)",
+            "(x+2)(x+6)",
+            "(x+1)(x+12)",
+            "(x-3)(x-4)"
+        ],
+        "answer": "(x+3)(x+4)"
+    },
+    {
+        "question": "Factor completely: x^2 + 9x + 20",
+        "Choices": [
+            "(x+4)(x+5)",
+            "(x+2)(x+10)",
+            "(x+1)(x+20)",
+            "(x-4)(x-5)"
+        ],
+        "answer": "(x+4)(x+5)"
+    },
+    {
+        "question": "Factor completely: x^2 - 5x + 6",
+        "Choices": [
+            "(x-2)(x-3)",
+            "(x+2)(x+3)",
+            "(x-1)(x-6)",
+            "(x+1)(x-6)"
+        ],
+        "answer": "(x-2)(x-3)"
+    },
+    {
+        "question": "Factor completely: x^2 - 11x + 24",
+        "Choices": [
+            "(x-3)(x-8)",
+            "(x-4)(x-6)",
+            "(x-2)(x-12)",
+            "(x+3)(x-8)"
+        ],
+        "answer": "(x-3)(x-8)"
+    },
+    {
+        "question": "Factor completely: x^2 - 16",
+        "Choices": [
+            "(x-4)(x+4)",
+            "(x-8)(x+2)",
+            "(x-16)(x+1)",
+            "(x-4)^2"
+        ],
+        "answer": "(x-4)(x+4)"
+    },
+    {
+        "question": "Factor completely: 9a^2 - 25",
+        "Choices": [
+            "(3a-5)(3a+5)",
+            "(9a-5)(a+5)",
+            "(3a-25)(3a+1)",
+            "(3a-5)^2"
+        ],
+        "answer": "(3a-5)(3a+5)"
+    },
+    {
+        "question": "Factor completely: 4m^2 + 12m",
+        "Choices": [
+            "4m(m+3)",
+            "2m(2m+12)",
+            "4(m^2+3)",
+            "m(4m+12)"
+        ],
+        "answer": "4m(m+3)"
+    },
+    {
+        "question": "Factor completely: 15p^2 - 10p",
+        "Choices": [
+            "5p(3p-2)",
+            "5(3p^2-2p)",
+            "p(15p-10)",
+            "10p(1.5p-1)"
+        ],
+        "answer": "5p(3p-2)"
+    },
+    {
+        "question": "Factor completely: x^2 + 10x + 21",
+        "Choices": [
+            "(x+3)(x+7)",
+            "(x+1)(x+21)",
+            "(x+4)(x+6)",
+            "(x-3)(x-7)"
+        ],
+        "answer": "(x+3)(x+7)"
+    },
+    {
+        "question": "Factor completely: x^2 - 7x + 10",
+        "Choices": [
+            "(x-5)(x-2)",
+            "(x+5)(x-2)",
+            "(x-10)(x+1)",
+            "(x-1)(x-10)"
+        ],
+        "answer": "(x-5)(x-2)"
+    },
+    {
+        "question": "Factor completely: 3x^2 + 12x",
+        "Choices": [
+            "3x(x+4)",
+            "3(x^2+4)",
+            "x(3x+12)",
+            "6x(x+2)"
+        ],
+        "answer": "3x(x+4)"
+    },
+    {
+        "question": "Factor completely: x^2 + 8x + 15",
+        "Choices": [
+            "(x+3)(x+5)",
+            "(x+1)(x+15)",
+            "(x+2)(x+7)",
+            "(x-3)(x-5)"
+        ],
+        "answer": "(x+3)(x+5)"
+    },
+    {
+        "question": "Factor completely: x^2 - 9x + 20",
+        "Choices": [
+            "(x-4)(x-5)",
+            "(x+4)(x-5)",
+            "(x-2)(x-10)",
+            "(x+4)(x+5)"
+        ],
+        "answer": "(x-4)(x-5)"
+    },
+    {
+        "question": "Factor completely: 12k + 30",
+        "Choices": [
+            "6(2k+5)",
+            "3(4k+10)",
+            "2(6k+15)",
+            "6(k+5)"
+        ],
+        "answer": "6(2k+5)"
+    },
+    {
+        "question": "Factor completely: y^2 - 36",
+        "Choices": [
+            "(y-6)(y+6)",
+            "(y-18)(y+2)",
+            "(y-6)^2",
+            "(y+6)^2"
+        ],
+        "answer": "(y-6)(y+6)"
+    },
+    {
+        "question": "Factor completely: x^2 + 13x + 40",
+        "Choices": [
+            "(x+5)(x+8)",
+            "(x+4)(x+10)",
+            "(x+2)(x+20)",
+            "(x-5)(x-8)"
+        ],
+        "answer": "(x+5)(x+8)"
+    },
+    {
+        "question": "Factor completely: 14r - 21",
+        "Choices": [
+            "7(2r-3)",
+            "7(r-3)",
+            "14(r-1.5)",
+            "3(14r-7)"
+        ],
+        "answer": "7(2r-3)"
+    },
+    {
+        "question": "Factor completely: x^2 - x - 12",
+        "Choices": [
+            "(x-4)(x+3)",
+            "(x-3)(x+4)",
+            "(x-6)(x+2)",
+            "(x+4)(x+3)"
+        ],
+        "answer": "(x-4)(x+3)"
+    },
+    {
+        "question": "Find the slope of the line through (2,5) and (6,13).",
+        "Choices": [
+            "2",
+            "4",
+            "8",
+            "1/2"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Find the slope of the line through (-1,4) and (3,12).",
+        "Choices": [
+            "2",
+            "4",
+            "3",
+            "1"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Find the slope of the line through (0,7) and (5,7).",
+        "Choices": [
+            "0",
+            "1",
+            "7",
+            "5"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "Find the slope of the line through (2,-3) and (2,8).",
+        "Choices": [
+            "0",
+            "undefined",
+            "11",
+            "-11"
+        ],
+        "answer": "undefined"
+    },
+    {
+        "question": "What is the slope of y = 4x - 9?",
+        "Choices": [
+            "4",
+            "-9",
+            "9",
+            "-4"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "What is the slope of y = -3x + 2?",
+        "Choices": [
+            "-3",
+            "3",
+            "2",
+            "-2"
+        ],
+        "answer": "-3"
+    },
+    {
+        "question": "Find the slope through (1,2) and (4,11).",
+        "Choices": [
+            "3",
+            "9",
+            "1/3",
+            "4"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Find the slope through (-2,-1) and (2,3).",
+        "Choices": [
+            "1",
+            "2",
+            "4",
+            "-1"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Find the slope through (3,10) and (7,2).",
+        "Choices": [
+            "-2",
+            "2",
+            "-8",
+            "1/2"
+        ],
+        "answer": "-2"
+    },
+    {
+        "question": "Find the slope through (-4,5) and (0,1).",
+        "Choices": [
+            "-1",
+            "1",
+            "-4",
+            "4"
+        ],
+        "answer": "-1"
+    },
+    {
+        "question": "What is the slope of y = (1/2)x + 6?",
+        "Choices": [
+            "1/2",
+            "2",
+            "6",
+            "-1/2"
+        ],
+        "answer": "1/2"
+    },
+    {
+        "question": "What is the slope of y = -7?",
+        "Choices": [
+            "0",
+            "-7",
+            "undefined",
+            "7"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "Find the slope through (5,1) and (8,10).",
+        "Choices": [
+            "3",
+            "9",
+            "1/3",
+            "10"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Find the slope through (-3,7) and (1,-1).",
+        "Choices": [
+            "-2",
+            "2",
+            "-8",
+            "8"
+        ],
+        "answer": "-2"
+    },
+    {
+        "question": "Find the slope through (0,0) and (10,5).",
+        "Choices": [
+            "1/2",
+            "2",
+            "5",
+            "10"
+        ],
+        "answer": "1/2"
+    },
+    {
+        "question": "Find the slope through (6,-2) and (9,-8).",
+        "Choices": [
+            "-2",
+            "2",
+            "-6",
+            "6"
+        ],
+        "answer": "-2"
+    },
+    {
+        "question": "What is the slope of x = 12?",
+        "Choices": [
+            "12",
+            "0",
+            "undefined",
+            "-12"
+        ],
+        "answer": "undefined"
+    },
+    {
+        "question": "Find the slope through (-5,-5) and (5,5).",
+        "Choices": [
+            "1",
+            "-1",
+            "10",
+            "0"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Find the slope through (2,9) and (6,1).",
+        "Choices": [
+            "-2",
+            "2",
+            "-8",
+            "8"
+        ],
+        "answer": "-2"
+    },
+    {
+        "question": "What is the slope of y = 8x + 1?",
+        "Choices": [
+            "8",
+            "1",
+            "-8",
+            "0"
+        ],
+        "answer": "8"
+    },
+    {
+        "question": "Translate: five more than a number n.",
+        "Choices": [
+            "n+5",
+            "5n",
+            "n-5",
+            "5-n"
+        ],
+        "answer": "n+5"
+    },
+    {
+        "question": "Translate: seven less than x.",
+        "Choices": [
+            "x-7",
+            "7-x",
+            "x+7",
+            "7x"
+        ],
+        "answer": "x-7"
+    },
+    {
+        "question": "Translate: three times a number p.",
+        "Choices": [
+            "3p",
+            "p+3",
+            "p-3",
+            "3+p"
+        ],
+        "answer": "3p"
+    },
+    {
+        "question": "Translate: the quotient of y and 4.",
+        "Choices": [
+            "y/4",
+            "4/y",
+            "y-4",
+            "4y"
+        ],
+        "answer": "y/4"
+    },
+    {
+        "question": "Translate: twice a number decreased by 8.",
+        "Choices": [
+            "2n-8",
+            "2(n-8)",
+            "n-16",
+            "8-2n"
+        ],
+        "answer": "2n-8"
+    },
+    {
+        "question": "Translate: the sum of a number k and 12.",
+        "Choices": [
+            "k+12",
+            "12-k",
+            "12k",
+            "k/12"
+        ],
+        "answer": "k+12"
+    },
+    {
+        "question": "Translate: 15 more than twice x.",
+        "Choices": [
+            "2x+15",
+            "15x+2",
+            "2(x+15)",
+            "15-2x"
+        ],
+        "answer": "2x+15"
+    },
+    {
+        "question": "Translate: the difference of m and 9.",
+        "Choices": [
+            "m-9",
+            "9-m",
+            "m+9",
+            "9m"
+        ],
+        "answer": "m-9"
+    },
+    {
+        "question": "Translate: one-third of a number t.",
+        "Choices": [
+            "t/3",
+            "3t",
+            "t-3",
+            "3/t"
+        ],
+        "answer": "t/3"
+    },
+    {
+        "question": "Translate: four less than twice r.",
+        "Choices": [
+            "2r-4",
+            "4-2r",
+            "2(r-4)",
+            "r-8"
+        ],
+        "answer": "2r-4"
+    },
+    {
+        "question": "Translate: the product of 6 and z.",
+        "Choices": [
+            "6z",
+            "z+6",
+            "z/6",
+            "6-z"
+        ],
+        "answer": "6z"
+    },
+    {
+        "question": "Translate: 9 divided by a number x.",
+        "Choices": [
+            "9/x",
+            "x/9",
+            "9x",
+            "x-9"
+        ],
+        "answer": "9/x"
+    },
+    {
+        "question": "Translate: eight more than half of n.",
+        "Choices": [
+            "n/2+8",
+            "8n/2",
+            "(n+8)/2",
+            "8-n/2"
+        ],
+        "answer": "n/2+8"
+    },
+    {
+        "question": "Translate: the square of a number y.",
+        "Choices": [
+            "y^2",
+            "2y",
+            "y+y",
+            "sqrt(y)"
+        ],
+        "answer": "y^2"
+    },
+    {
+        "question": "Translate: five times the sum of a and 2.",
+        "Choices": [
+            "5(a+2)",
+            "5a+2",
+            "a+10",
+            "5a-2"
+        ],
+        "answer": "5(a+2)"
+    },
+    {
+        "question": "Translate: the difference between 20 and x.",
+        "Choices": [
+            "20-x",
+            "x-20",
+            "20x",
+            "20/x"
+        ],
+        "answer": "20-x"
+    },
+    {
+        "question": "Translate: three less than the product of 4 and n.",
+        "Choices": [
+            "4n-3",
+            "3-4n",
+            "4(n-3)",
+            "n-12"
+        ],
+        "answer": "4n-3"
+    },
+    {
+        "question": "Translate: the quotient of a number p and 8, increased by 2.",
+        "Choices": [
+            "p/8+2",
+            "8/p+2",
+            "(p+2)/8",
+            "2-p/8"
+        ],
+        "answer": "p/8+2"
+    },
+    {
+        "question": "Translate: twice the difference of x and 5.",
+        "Choices": [
+            "2(x-5)",
+            "2x-5",
+            "x-10",
+            "5-2x"
+        ],
+        "answer": "2(x-5)"
+    },
+    {
+        "question": "Translate: the sum of 7 and the square of k.",
+        "Choices": [
+            "k^2+7",
+            "7k^2",
+            "(k+7)^2",
+            "k+14"
+        ],
+        "answer": "k^2+7"
+    },
+    {
+        "question": "A notebook costs $4. How much do 7 notebooks cost?",
+        "Choices": [
+            "$28",
+            "$24",
+            "$32",
+            "$21"
+        ],
+        "answer": "$28"
+    },
+    {
+        "question": "A taxi charges $3 plus $2 per mile. What is the cost of a 5-mile ride?",
+        "Choices": [
+            "$13",
+            "$10",
+            "$15",
+            "$8"
+        ],
+        "answer": "$13"
+    },
+    {
+        "question": "Maria has 12 apples and buys 8 more. How many apples does she have?",
+        "Choices": [
+            "20",
+            "18",
+            "16",
+            "24"
+        ],
+        "answer": "20"
+    },
+    {
+        "question": "A plant is 10 cm tall and grows 3 cm each week. How tall after 4 weeks?",
+        "Choices": [
+            "22 cm",
+            "12 cm",
+            "40 cm",
+            "18 cm"
+        ],
+        "answer": "22 cm"
+    },
+    {
+        "question": "A movie ticket costs $9. How many tickets can be bought with $45?",
+        "Choices": [
+            "5",
+            "4",
+            "6",
+            "9"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "A rectangle has length 12 and width 5. What is its perimeter?",
+        "Choices": [
+            "34",
+            "60",
+            "17",
+            "24"
+        ],
+        "answer": "34"
+    },
+    {
+        "question": "A runner jogs 6 miles per day. How many miles in 8 days?",
+        "Choices": [
+            "48",
+            "42",
+            "56",
+            "14"
+        ],
+        "answer": "48"
+    },
+    {
+        "question": "A phone plan costs $20 per month plus $5 per GB. What is the cost for 4 GB?",
+        "Choices": [
+            "$40",
+            "$25",
+            "$80",
+            "$35"
+        ],
+        "answer": "$40"
+    },
+    {
+        "question": "A shirt is discounted from $30 by $8. What is the sale price?",
+        "Choices": [
+            "$22",
+            "$38",
+            "$24",
+            "$18"
+        ],
+        "answer": "$22"
+    },
+    {
+        "question": "You earn $12 per hour. How much do you earn in 7 hours?",
+        "Choices": [
+            "$84",
+            "$72",
+            "$96",
+            "$19"
+        ],
+        "answer": "$84"
+    },
+    {
+        "question": "A tank contains 50 gallons and loses 4 gallons per day. How much remains after 5 days?",
+        "Choices": [
+            "30",
+            "46",
+            "25",
+            "20"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "A book costs $15. If you have $90, how many books can you buy?",
+        "Choices": [
+            "6",
+            "5",
+            "7",
+            "15"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "A gym charges $25 registration plus $30 per month. What is the cost for 3 months?",
+        "Choices": [
+            "$115",
+            "$90",
+            "$85",
+            "$55"
+        ],
+        "answer": "$115"
+    },
+    {
+        "question": "A car travels 60 miles per hour. How far in 3 hours?",
+        "Choices": [
+            "180",
+            "120",
+            "200",
+            "20"
+        ],
+        "answer": "180"
+    },
+    {
+        "question": "A rope 40 feet long is cut into 5 equal pieces. How long is each piece?",
+        "Choices": [
+            "8 feet",
+            "5 feet",
+            "10 feet",
+            "20 feet"
+        ],
+        "answer": "8 feet"
+    },
+    {
+        "question": "A savings account has $100 and gains $15 each month. How much after 4 months?",
+        "Choices": [
+            "$160",
+            "$115",
+            "$140",
+            "$175"
+        ],
+        "answer": "$160"
+    },
+    {
+        "question": "A pizza is cut into 8 slices. If 3 are eaten, how many remain?",
+        "Choices": [
+            "5",
+            "3",
+            "11",
+            "6"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "A bicycle costs $240. If you save $30 each week, how many weeks are needed?",
+        "Choices": [
+            "8",
+            "7",
+            "6",
+            "10"
+        ],
+        "answer": "8"
+    },
+    {
+        "question": "A train travels 75 miles in 1.5 hours. What is its speed?",
+        "Choices": [
+            "50 mph",
+            "75 mph",
+            "112.5 mph",
+            "25 mph"
+        ],
+        "answer": "50 mph"
+    },
+    {
+        "question": "A zinnia is 4 cm tall when planted and grows 0.5 cm per day. After how many days will it reach 14 cm?",
+        "Choices": [
+            "20 days",
+            "18 days",
+            "10 days",
+            "28 days"
+        ],
+        "answer": "20 days"
+    },
+    {
+        "question": "A gym membership costs a one-time registration fee plus $25 per month. After 8 months, the total cost is $260. What was the registration fee?",
+        "Choices": [
+            "$40",
+            "$50",
+            "$60",
+            "$70"
+        ],
+        "answer": "$60"
+    },
+    {
+        "question": "Three times a number increased by 7 equals 52. What is the number?",
+        "Choices": [
+            "13",
+            "15",
+            "17",
+            "19"
+        ],
+        "answer": "15"
+    },
+    {
+        "question": "A theater sold adult tickets for $12 each. One customer spent $108 on tickets. How many tickets did the customer buy?",
+        "Choices": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "answer": "9"
+    },
+    {
+        "question": "A water tank contains 180 gallons. After draining 12 gallons per minute for several minutes, 96 gallons remain. How many minutes was the tank drained?",
+        "Choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "7"
+    },
+    {
+        "question": "A taxi charges a $4 pickup fee plus $3 per mile. If a ride costs $34, how many miles were traveled?",
+        "Choices": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "The perimeter of a rectangle is 54 cm. The length is 5 cm longer than the width. What is the width?",
+        "Choices": [
+            "11 cm",
+            "11.5 cm",
+            "12 cm",
+            "13 cm"
+        ],
+        "answer": "11 cm"
+    },
+    {
+        "question": "A number decreased by 18 is equal to twice the number minus 50. What is the number?",
+        "Choices": [
+            "30",
+            "32",
+            "34",
+            "36"
+        ],
+        "answer": "32"
+    },
+    {
+        "question": "A streaming service charges a monthly fee plus $2 per movie rental. One month, a customer rented 9 movies and paid $31. What is the monthly fee?",
+        "Choices": [
+            "$11",
+            "$12",
+            "$13",
+            "$14"
+        ],
+        "answer": "$13"
+    },
+    {
+        "question": "The sum of a number and 15 is equal to four times the number minus 21. What is the number?",
+        "Choices": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "answer": "12"
+    },
+    {
+        "question": "A plant is 8 inches tall and grows 1.5 inches per week. After several weeks it is 26 inches tall. How many weeks have passed?",
+        "Choices": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "answer": "12"
+    },
+    {
+        "question": "The length of a rectangle is 7 feet more than its width. The perimeter is 74 feet. What is the length?",
+        "Choices": [
+            "22 ft",
+            "22.5 ft",
+            "23 ft",
+            "24 ft"
+        ],
+        "answer": "22 ft"
+    },
+    {
+        "question": "A store offers a $15 coupon on a purchase. After using the coupon, the customer pays $63. What was the original purchase amount?",
+        "Choices": [
+            "$72",
+            "$76",
+            "$78",
+            "$80"
+        ],
+        "answer": "$78"
+    },
+    {
+        "question": "Five less than twice a number is 41. What is the number?",
+        "Choices": [
+            "21",
+            "22",
+            "23",
+            "24"
+        ],
+        "answer": "23"
+    },
+    {
+        "question": "A school fundraiser sold tickets for $8 each. The fundraiser collected $184. How many tickets were sold?",
+        "Choices": [
+            "21",
+            "22",
+            "23",
+            "24"
+        ],
+        "answer": "23"
+    },
+    {
+        "question": "A delivery service charges a flat fee plus $4 per package. A customer shipped 12 packages and paid $58. What was the flat fee?",
+        "Choices": [
+            "$8",
+            "$9",
+            "$10",
+            "$11"
+        ],
+        "answer": "$10"
+    },
+    {
+        "question": "The sum of three consecutive integers is 72. What is the middle integer?",
+        "Choices": [
+            "23",
+            "24",
+            "25",
+            "26"
+        ],
+        "answer": "24"
+    },
+    {
+        "question": "A savings account starts with $150. After making equal monthly deposits of $35, the balance reaches $395. How many deposits were made?",
+        "Choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": "7"
+    },
+    {
+        "question": "A phone plan charges $18 per month plus a one-time activation fee. During the first month, the bill was $43. What was the activation fee?",
+        "Choices": [
+            "$23",
+            "$24",
+            "$25",
+            "$26"
+        ],
+        "answer": "$25"
+    },
+    {
+        "question": "A number divided by 4, then increased by 9, equals 21. What is the number?",
+        "Choices": [
+            "44",
+            "46",
+            "48",
+            "50"
+        ],
+        "answer": "48"
+    },
+    {
+        "question": "The perimeter of a square is 68 cm. What is the length of one side?",
+        "Choices": [
+            "15 cm",
+            "16 cm",
+            "17 cm",
+            "18 cm"
+        ],
+        "answer": "17 cm"
+    },
+    {
+        "question": "A movie theater charges a $12 admission fee plus $3 for each snack purchased. Which expression represents the total cost for s snacks?",
+        "Choices": [
+            "12+3s",
+            "3(12+s)",
+            "12s+3",
+            "15s"
+        ],
+        "answer": "12+3s"
+    },
+    {
+        "question": "A taxi company charges a $5 pickup fee and $2 per mile traveled. Which expression represents the total fare for m miles?",
+        "Choices": [
+            "5+2m",
+            "2(5+m)",
+            "5m+2",
+            "7m"
+        ],
+        "answer": "5+2m"
+    },
+    {
+        "question": "A gym membership costs $25 per month plus a one-time registration fee of $40. Which expression represents the total cost after n months?",
+        "Choices": [
+            "25n+40",
+            "40n+25",
+            "25(n+40)",
+            "65n"
+        ],
+        "answer": "25n+40"
+    },
+    {
+        "question": "A streaming service charges $8 per month. After subscribing for t months, a customer also receives a $10 gift card. Which expression represents the total value received?",
+        "Choices": [
+            "8t+10",
+            "10t+8",
+            "8(t+10)",
+            "18t"
+        ],
+        "answer": "8t+10"
+    },
+    {
+        "question": "A plant is 6 inches tall and grows 2 inches each week. Which expression represents the plant's height after w weeks?",
+        "Choices": [
+            "6+2w",
+            "2(6+w)",
+            "6w+2",
+            "8w"
+        ],
+        "answer": "6+2w"
+    },
+    {
+        "question": "A savings account starts with $150 and increases by $20 each month. Which expression represents the account balance after m months?",
+        "Choices": [
+            "150+20m",
+            "20(150+m)",
+            "150m+20",
+            "170m"
+        ],
+        "answer": "150+20m"
+    },
+    {
+        "question": "A school sells tickets to a fundraiser for $9 each and collects an additional fixed donation of $50. Which expression represents the total money raised if x tickets are sold?",
+        "Choices": [
+            "9x+50",
+            "50x+9",
+            "9(x+50)",
+            "59x"
+        ],
+        "answer": "9x+50"
+    },
+    {
+        "question": "A delivery service charges a flat fee of $7 plus $4 for each package delivered. Which expression represents the total charge for p packages?",
+        "Choices": [
+            "7+4p",
+            "4(7+p)",
+            "7p+4",
+            "11p"
+        ],
+        "answer": "7+4p"
+    },
+    {
+        "question": "A runner has already completed 3 miles and runs an additional 1.5 miles each day. Which expression represents the total miles run after d days?",
+        "Choices": [
+            "3+1.5d",
+            "1.5(3+d)",
+            "3d+1.5",
+            "4.5d"
+        ],
+        "answer": "3+1.5d"
+    },
+    {
+        "question": "A bookstore sells notebooks for $4 each. A customer also buys a pen for $2. Which expression represents the total cost of buying n notebooks and one pen?",
+        "Choices": [
+            "4n+2",
+            "2n+4",
+            "4(n+2)",
+            "6n"
+        ],
+        "answer": "4n+2"
+    },
+    {
+        "question": "A parking garage charges $6 to enter and $3 for each hour parked. Which expression represents the total cost for h hours?",
+        "Choices": [
+            "6+3h",
+            "3(6+h)",
+            "6h+3",
+            "9h"
+        ],
+        "answer": "6+3h"
+    },
+    {
+        "question": "A phone plan includes 500 free text messages and then charges $0.10 for each additional text message. Which expression represents the total number of text messages if x additional messages are sent?",
+        "Choices": [
+            "500+x",
+            "500x",
+            "0.10x+500",
+            "500+0.10"
+        ],
+        "answer": "500+x"
+    },
+    {
+        "question": "A water tank contains 80 gallons and loses 5 gallons each day. Which expression represents the amount of water remaining after d days?",
+        "Choices": [
+            "80-5d",
+            "5d-80",
+            "80/(5d)",
+            "75d"
+        ],
+        "answer": "80-5d"
+    },
+    {
+        "question": "A teacher has 120 pencils and distributes 4 pencils to each student. Which expression represents the number of pencils remaining after s students receive pencils?",
+        "Choices": [
+            "120-4s",
+            "4s-120",
+            "120/(4s)",
+            "116s"
+        ],
+        "answer": "120-4s"
+    },
+    {
+        "question": "A car rental company charges $35 per day and a $25 cleaning fee. Which expression represents the total rental cost for d days?",
+        "Choices": [
+            "35d+25",
+            "25d+35",
+            "35(d+25)",
+            "60d"
+        ],
+        "answer": "35d+25"
+    },
+    {
+        "question": "A concert venue seats 2,000 people. After selling t tickets, how many seats remain available? Which expression represents the number of remaining seats?",
+        "Choices": [
+            "2000-t",
+            "t-2000",
+            "2000t",
+            "2000/t"
+        ],
+        "answer": "2000-t"
+    },
+    {
+        "question": "A baker starts with 48 cupcakes and bakes 12 more batches containing c cupcakes each. Which expression represents the total number of cupcakes?",
+        "Choices": [
+            "48+12c",
+            "12(48+c)",
+            "48c+12",
+            "60c"
+        ],
+        "answer": "48+12c"
+    },
+    {
+        "question": "A student earns $15 per hour tutoring and already has $75 saved. Which expression represents the total amount of money after h hours of tutoring?",
+        "Choices": [
+            "75+15h",
+            "15(75+h)",
+            "75h+15",
+            "90h"
+        ],
+        "answer": "75+15h"
+    },
+    {
+        "question": "A warehouse contains 900 boxes and ships out 25 boxes each day. Which expression represents the number of boxes remaining after d days?",
+        "Choices": [
+            "900-25d",
+            "25d-900",
+            "900/(25d)",
+            "875d"
+        ],
+        "answer": "900-25d"
+    },
+    {
+        "question": "A charity starts a fundraiser with $500 already donated and receives an additional $30 from each donor. Which expression represents the total amount raised after n donors contribute?",
+        "Choices": [
+            "500+30n",
+            "30(500+n)",
+            "500n+30",
+            "530n"
+        ],
+        "answer": "500+30n"
     }
 ]
