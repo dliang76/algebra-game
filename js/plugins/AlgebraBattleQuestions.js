@@ -1,6 +1,6 @@
 /*:
  * @target MZ
- * @plugindesc Requires a correct algebra multiple-choice answer before Attack can be used in battle.
+ * @plugindesc Requires a correct algebra multiple-choice answer before Attack, Magic, or Special can be used in battle.
  * @author Codex
  *
  * @help AlgebraBattleQuestions.js
@@ -12,9 +12,9 @@
  *   "answer": "B"
  * }
  *
- * When an actor chooses Attack, a random question is shown. A correct answer
- * continues to normal enemy selection. A wrong answer consumes that attack
- * chance with no effect.
+ * When an actor chooses Attack, Magic, or Special, a random question is shown.
+ * A correct answer continues to normal target selection. A wrong answer
+ * consumes that action chance with no effect.
  */
 
 (() => {
@@ -150,7 +150,7 @@
                 message1: "",
                 message2: "",
                 mpCost: 0,
-                name: "Missed Attack",
+                name: "Missed Action",
                 note: "<AlgebraMissedAttack>",
                 occasion: 1,
                 repeats: 1,
@@ -220,12 +220,14 @@
     Window_AlgebraQuestionPrompt.prototype.initialize = function(rect) {
         Window_Base.prototype.initialize.call(this, rect);
         this._question = null;
+        this._actionLabel = "use this action";
         this.hide();
         this.close();
     };
 
-    Window_AlgebraQuestionPrompt.prototype.setQuestion = function(question) {
+    Window_AlgebraQuestionPrompt.prototype.setQuestion = function(question, actionLabel) {
         this._question = question;
+        this._actionLabel = actionLabel || "use this action";
         this.refresh();
     };
 
@@ -235,7 +237,7 @@
             return;
         }
         this.changeTextColor(ColorManager.systemColor());
-        this.drawText("Answer correctly to attack:", 0, 0, this.innerWidth);
+        this.drawText(`Answer correctly to ${this._actionLabel}:`, 0, 0, this.innerWidth);
         this.resetTextColor();
         const question = AlgebraBattleQuestions.formatMathText(this._question.question);
         this.drawWrappedText(question, 0, this.lineHeight() + 8, this.innerWidth);
@@ -400,17 +402,37 @@
             _Scene_Battle_commandAttack.call(this);
             return;
         }
-        this.startAlgebraQuestion();
+        const action = BattleManager.inputtingAction();
+        action.setAttack();
+        action._algebraMissedAttack = false;
+        this.startAlgebraQuestion("attack", "loses the chance to attack!");
     };
 
-    Scene_Battle.prototype.startAlgebraQuestion = function() {
+    const _Scene_Battle_onSkillOk = Scene_Battle.prototype.onSkillOk;
+    Scene_Battle.prototype.onSkillOk = function() {
+        if (!AlgebraBattleQuestions.hasQuestions()) {
+            _Scene_Battle_onSkillOk.call(this);
+            return;
+        }
+        const skill = this._skillWindow.item();
+        const action = BattleManager.inputtingAction();
+        action.setSkill(skill.id);
+        action._algebraMissedAttack = false;
+        BattleManager.actor().setLastBattleSkill(skill);
+        this._skillWindow.hide();
+        this.startAlgebraQuestion(`use ${skill.name}`, `loses the chance to use ${skill.name}!`);
+    };
+
+    Scene_Battle.prototype.startAlgebraQuestion = function(actionLabel, missedMessage) {
         this._algebraQuestion = AlgebraBattleQuestions.randomQuestion();
+        this._algebraQuestionActionLabel = actionLabel || "use this action";
+        this._algebraQuestionMissedMessage = missedMessage || "loses the action!";
         this._algebraQuestionTimerFrames = QUESTION_TIME_LIMIT_SECONDS * 60;
         this._algebraQuestionTimedOut = false;
         this._partyCommandWindow.deactivate();
         this._actorCommandWindow.deactivate();
         this._statusWindow.hide();
-        this._algebraPromptWindow.setQuestion(this._algebraQuestion);
+        this._algebraPromptWindow.setQuestion(this._algebraQuestion, this._algebraQuestionActionLabel);
         this._algebraChoiceWindow.setQuestion(this._algebraQuestion);
         this._algebraTimerWindow.setRemainingSeconds(QUESTION_TIME_LIMIT_SECONDS);
         this._algebraTimerWindow.show();
@@ -451,7 +473,7 @@
         this._algebraQuestionTimedOut = true;
         SoundManager.playBuzzer();
         this.closeAlgebraQuestion();
-        this.consumeMissedAttack("ran out of time!");
+        this.consumeMissedAction(`ran out of time and ${this._algebraQuestionMissedMessage}`);
     };
 
     Scene_Battle.prototype.onAlgebraAnswerOk = function() {
@@ -460,22 +482,24 @@
         this.closeAlgebraQuestion();
         if (correct) {
             SoundManager.playOk();
-            const action = BattleManager.inputtingAction();
-            action.setAttack();
             this.onSelectAction();
         } else {
             SoundManager.playBuzzer();
-            this.consumeMissedAttack();
+            this.consumeMissedAction();
         }
     };
 
     Scene_Battle.prototype.consumeMissedAttack = function(message) {
+        this.consumeMissedAction(message);
+    };
+
+    Scene_Battle.prototype.consumeMissedAction = function(message) {
         const actor = BattleManager.actor();
         const action = BattleManager.inputtingAction();
         if (actor && action) {
             action.setSkill(AlgebraBattleQuestions.ensureSkipSkill());
             action._algebraMissedAttack = true;
-            this._logWindow.push("addText", `${actor.name()} ${message || "loses the chance to attack!"}`);
+            this._logWindow.push("addText", `${actor.name()} ${message || this._algebraQuestionMissedMessage}`);
         }
         this.selectNextCommand();
     };
