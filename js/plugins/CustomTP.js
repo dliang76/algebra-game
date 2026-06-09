@@ -3,5 +3,5 @@
 //=============================================================================
 
 Game_Battler.prototype.initTp = function() {
-    this.setTp(30); // Change the 0 to any starting number or formula you want
+    this.setTp(40); // Change the 0 to any starting number or formula you want
 };
