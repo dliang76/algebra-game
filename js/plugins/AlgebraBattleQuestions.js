@@ -381,6 +381,9 @@
         if (this._cancelButton && this.isAlgebraQuestionActive()) {
             this._cancelButton.visible = false;
         }
+        if (this._cancelButton && this.isTargetSelectionCancelBlocked()) {
+            this._cancelButton.visible = false;
+        }
     };
 
     Scene_Battle.prototype.isAlgebraQuestionActive = function() {
@@ -389,6 +392,13 @@
             this._algebraChoiceWindow.active &&
             this._algebraChoiceWindow.visible &&
             this._algebraChoiceWindow.isOpen()
+        );
+    };
+
+    Scene_Battle.prototype.isTargetSelectionCancelBlocked = function() {
+        return (
+            (this._actorWindow && this._actorWindow.active) ||
+            (this._enemyWindow && this._enemyWindow.active)
         );
     };
 
@@ -504,6 +514,13 @@
         this.selectNextCommand();
     };
 
+    const _Scene_Battle_startActorSelection = Scene_Battle.prototype.startActorSelection;
+    Scene_Battle.prototype.startActorSelection = function() {
+        _Scene_Battle_startActorSelection.call(this);
+        this._actorCommandWindow.deactivate();
+        this._actorCommandWindow.hide();
+    };
+
     const _Scene_Battle_startEnemySelection = Scene_Battle.prototype.startEnemySelection;
     Scene_Battle.prototype.startEnemySelection = function() {
         _Scene_Battle_startEnemySelection.call(this);
@@ -511,14 +528,14 @@
         this._actorCommandWindow.hide();
     };
 
-    const _Scene_Battle_onEnemyCancel = Scene_Battle.prototype.onEnemyCancel;
+    Scene_Battle.prototype.onActorCancel = function() {
+        SoundManager.playBuzzer();
+        this._actorWindow.activate();
+    };
+
     Scene_Battle.prototype.onEnemyCancel = function() {
-        const symbol = this._actorCommandWindow.currentSymbol();
-        _Scene_Battle_onEnemyCancel.call(this);
-        if (symbol === "attack") {
-            this._actorCommandWindow.show();
-            this._actorCommandWindow.activate();
-        }
+        SoundManager.playBuzzer();
+        this._enemyWindow.activate();
     };
 
     const _Game_Action_isAlgebraMissedAttack = Game_Action.prototype.isAlgebraMissedAttack;
